@@ -72,7 +72,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 PREFIX=${PREFIX:-/usr}
-SYSCONFDIR=${SYSCONFDIR:-/etc/hassio}
+SYSCONFDIR=${SYSCONFDIR:-/etc}
 DATA_SHARE=${DATA_SHARE:-$PREFIX/share/hassio}
 CONFIG=$SYSCONFDIR/hassio.json
 
