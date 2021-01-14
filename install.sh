@@ -25,6 +25,7 @@ command -v docker > /dev/null 2>&1 || error "Please install docker first"
 command -v jq > /dev/null 2>&1 || error "Please install jq first"
 command -v curl > /dev/null 2>&1 || error "Please install curl first"
 command -v dbus-daemon > /dev/null 2>&1 || error "Please install dbus first"
+#command -v avahi-daemon > /dev/null 2>&1 || error "Please install avahi first"
 command -v nmcli > /dev/null 2>&1 || warn "No NetworkManager support on host."
 command -v apparmor_parser > /dev/null 2>&1 || warn "No AppArmor support on host."
 
